@@ -1,0 +1,100 @@
+#c1{
+    margin: 20%;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-bottom: 10px;
+    position: absolute;
+    border-left: 2px;
+    transform: translate(-50%,-50%);
+    animation: myanim 1.5s infinite linear;
+}
+
+@keyframes myanim{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+   
+}
+
+.c2a{
+    margin: 50%;
+    height: 30px;
+    width: 30px;
+    border-radius: 35px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-bottom: 10px;
+    position: absolute;
+    border-left: 10px;
+    transform: translate(-50%,-50%);
+    animation: myanim1 2s infinite linear;
+}
+
+@keyframes myanim1{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}    
+
+.c2b{
+    margin: 50%;
+    height: 50px;
+    width: 50px;
+    border-radius: 35px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-bottom: 10px;
+    position: absolute;
+    border-left: 10px;
+    transform: translate(-50%,-50%);
+    animation: myanim2 2s infinite linear;
+}
+
+@keyframes myanim2{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+
+.c2c{
+    margin: 50%;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-bottom: 10px;
+    position: absolute;
+    border-left: 10px;
+    transform: translate(-50%,-50%);
+    animation: myanim3 1.5s infinite linear;
+}
+
+@keyframes myanim3{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+
+    #head{
+        font-size: 30px;
+    }
